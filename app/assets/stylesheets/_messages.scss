@@ -83,14 +83,13 @@ $section-color-4: #434A54;
     height: 90px;
     padding: 20px 40px;
     
-    .input{
+    form{
       display: flex;
-  
-      &_message{
+      .input-box{
         width: 100%;
-        position: relative;
         display: flex;
-  
+        position: relative;
+
         &_text{
           height: 50px;
           border-style: none;
@@ -98,19 +97,21 @@ $section-color-4: #434A54;
           color: $section-color-4;
           padding: 0 0 0 10px;
         }
-  
-        &_image{
+        
+        &_image_label{
+    
+          cursor: pointer;
           position: absolute;
           top: 15px;
           right: 10px;
-  
+
           &_file{
             display: none;
           }
         }
       }
-  
-      &_submit{
+      
+      .form_submit{
         background-color: $section-color-3;
         width: 100px;
         height: 50px;
@@ -119,8 +120,12 @@ $section-color-4: #434A54;
         padding: 0 30px;
         color: white;
         text-align: center;
-      }
+      }  
+      
     }
+      
+  
+    
   }
 }
 
@@ -177,9 +182,11 @@ $section-color-4: #434A54;
       &_name{
         font-size: 15px;
         margin-bottom: 5px;
+        color: white;
       }
     
       &_message{
+        color: white;
         font-size: 11px;
       }
     }

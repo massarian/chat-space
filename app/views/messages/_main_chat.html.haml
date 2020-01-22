@@ -1,22 +1,23 @@
 .chat-main
   .group-info
     .group_list
-      .group_list_name Group name
-      .group_list_member Member : masa
-    =link_to  "#", class: "edit" do
+      .group_list_name 
+        = @group.name
+      .group_list_member 
+        Menber :
+        - @group.users.each do |user|
+          =user.name
+    =link_to edit_group_path(@group), class: "edit" do
       Edit
 
   .message-list
-    .message_user
-      .message_user_name masa
-      .message_user_time 2020/1/11(Sat)13:00:00
-    .message_text こんにちは
+    =render @messages
 
   .message-form
-    .input
-      .input_message 
-        %input{type: "text", placeholder: "type  a message", class: "input_message_text"}
-        %label{class: "input_message_image"}
-          = icon('fas', 'image')
-          %input{type: "file", class: "input_message_image_file"}
-      %input{type: "submit", class: "input_submit"}
+    = form_for [@group, @message] do |f|
+      .input-box
+        = f.text_field :content, placeholder: "type  a message", class: "input-box_text"
+        = f.label :image, class: "input-box_image_label" do
+          = icon('fas', 'image', class: "icon")
+          = f.file_field :image, class: "input-box_image_label_file"
+      = f.submit 'Send', class: 'form_submit' 
