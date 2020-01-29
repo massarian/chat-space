@@ -53,7 +53,6 @@ $('#new_message').on('submit', function(e){
    contentType: false
  })
   .done(function(data){
-    console.log(data)
     var html = buildHTML(data);
     $('.message-list').append(html);
     $('.message-list').animate({ scrollTop: $('.message-list')[0].scrollHeight});      
