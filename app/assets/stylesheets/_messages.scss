@@ -55,6 +55,7 @@ $section-color-4: #434A54;
     background-color: #fafafa;
     height: calc(100vh - 190px);
     padding: 35px 40px 0;
+    overflow: scroll;
   
     .message_user{
       display: flex;
