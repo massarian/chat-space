@@ -64,6 +64,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'pry-byebug'
+gem 'fog-aws'
 group :production do
   gem 'unicorn', '5.4.1'
+
 end
