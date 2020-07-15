@@ -19,13 +19,12 @@
 ## 機能の詳細
 
 ### ログイン画面
-https://gyazo.com/daab43c45c78b6ddb6b8b5aa914f4097
+[![Image from Gyazo](https://i.gyazo.com/daab43c45c78b6ddb6b8b5aa914f4097.png)](https://gyazo.com/daab43c45c78b6ddb6b8b5aa914f4097)
 
 ### トップページ
-https://gyazo.com/83b9c7c0024dc914fb5b74150fdcb6db
+[![Image from Gyazo](https://i.gyazo.com/83b9c7c0024dc914fb5b74150fdcb6db.png)](https://gyazo.com/83b9c7c0024dc914fb5b74150fdcb6db)
 
 ### チャットグループ作成画面
-https://gyazo.com/289899986389c131e1223a4fa13d1780
-
+[![Image from Gyazo](https://i.gyazo.com/c40b933b027685ad147e6f16bd78fee9.png)](https://gyazo.com/c40b933b027685ad147e6f16bd78fee9)
 ### チャット画面
-https://gyazo.com/49fde6a05de0896c53c8d6eb1ef0254e
+[![Image from Gyazo](https://i.gyazo.com/49fde6a05de0896c53c8d6eb1ef0254e.png)](https://gyazo.com/49fde6a05de0896c53c8d6eb1ef0254e)
