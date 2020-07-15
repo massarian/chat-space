@@ -11,7 +11,7 @@
 ## 詳細
 ### ・アプリ名: chat space
 ### ・個人開発
-### ・作業期間: 約8週間
+### ・作業期間: 約5週間
 
 ## 使用技術
 ### 言語・フレームワーク: HTML(Haml)/CSS(scss)/Ruby/Ruby on Rails/JavaScript/jQuery/MySQL/Github/AWS/Visual Studio Code
